@@ -1,0 +1,68 @@
+body {
+  background: rgb(51,56,59);
+  background: linear-gradient(37deg, rgba(51,56,59,1) 0%, rgba(59,63,66,1) 100%);
+  color: #54d7ee;
+  text-shadow: 2px 2px black;
+  animation: show-items .55s ease-out;
+  font-family: 'Secular One', sans-serif;
+}
+
+.body-container {
+  height: 100vh;
+}
+
+.title-text {
+  font-size: 4em;
+}
+
+.sidebar {
+  position: fixed;
+  height: 50vh;
+  width: 10vw;
+  left: 0;
+  top: 25vh;
+  animation: show-items .75s ease-out;
+}
+.sidebar-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 12vh;
+  display: none;
+}
+
+.sidebar-icon {
+  font-size: 4em;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px){
+  .sidebar {
+    display: none;
+  }
+  .sidebar-mobile{
+    display: inherit;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .title-text {
+    font-size: 2em;
+  }
+  .title-sub {
+    font-size: 1em;
+  }
+}
+
+@keyframes show-items{
+  0%{
+    opacity: 0;
+  }
+  45%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100;
+  }
+}
