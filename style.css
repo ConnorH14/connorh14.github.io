@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background: #33383b;
-  background: linear-gradient(37deg, rgba(51,56,59,1) 0%, rgba(59,63,66,1) 100%);
+  background-color: #33383b;
+  /* background: linear-gradient(37deg, rgba(51,56,59,1) 0%, rgba(59,63,66,1) 100%); */
   color: #54d7ee;
   text-shadow: 2px 2px black;
   animation: show-items .55s ease-out;
@@ -21,7 +21,7 @@ a:hover {
 }
 
 .body-container {
-  height: 100vh;
+  height: 90vh;
 }
 
 .title-text {
@@ -45,6 +45,7 @@ a:hover {
   height: 12vh;
   display: none;
   z-index: 10;
+  background-color: #33383b;
 }
 
 .sidebar-icon {
@@ -58,12 +59,12 @@ a:hover {
   margin: 0;
 }
 
-#about-me {
+/* #about-me {
   background: rgb(43,45,46);
   background: linear-gradient(180deg, rgba(43,45,46,1) 36%, rgba(62,65,67,1) 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
+} */
 
 .about-div {
   background-color: #fafafa;
@@ -87,6 +88,11 @@ a:hover {
   border-radius: 5px;
   background-color: #54d7ee;
   border: 3px solid black;
+}
+
+.project-card {
+  background-color: #fafafa;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 900px){
