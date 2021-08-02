@@ -75,7 +75,20 @@ a:hover {
   font-family: 'Roboto', sans-serif;
 }
 
+.project-card {
+  background-color: #fafafa;
+  border-radius: 10px;
+  block-size: fit-content;
+}
 
+.project-card>h2, h5, p {
+  color: #08000f;
+  text-shadow: none;
+}
+
+.project-card> p, li {
+  font-family: 'Roboto', sans-serif;
+}
 
 ::-webkit-scrollbar {
   width: 15px;
@@ -88,11 +101,6 @@ a:hover {
   border-radius: 5px;
   background-color: #54d7ee;
   border: 3px solid black;
-}
-
-.project-card {
-  background-color: #fafafa;
-  border-radius: 10px;
 }
 
 @media only screen and (max-width: 900px){
