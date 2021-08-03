@@ -90,6 +90,18 @@ a:hover {
   font-family: 'Roboto', sans-serif;
 }
 
+.footer {
+  background-color: #08000f;
+  margin-top: 50px;
+  padding: 70px 20px 70px 20px;
+}
+
+.footer-icon {
+  color: #54d7ee;
+  font-size: 3em;
+  margin: 15px;
+}
+
 ::-webkit-scrollbar {
   width: 15px;
   background-color: #33383b;
